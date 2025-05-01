@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Lauren Tallon Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        /* Remove any default margin or padding from the body */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Optionally reduce the space around main content */
+        #main {
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        /* Adjust header or other elements to remove extra space */
+        header {
+            margin-top: 0;
+            padding-top: 10px; /* You can adjust this value */
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<img src="images/avatar.jpeg" alt="Avatar" class="image avatar" />
+					<p class="name">Lauren Tallon</p>
+        			<h1><strong>M.S. Data Analysis</strong></h1>
+        			<h1><strong>B.S. Wine & Viticulture</strong></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main" style="margin-top: 50px;">
+
+				<!-- One -->
+				<section id="one">
+					<header class="major">
+						<h2 style="font-size: 2.6rem; line-height: 1.4; text-align: center;">Lauren Tallon Portfolio<br /></h2>
+					</header>
+					<p style="font-size: 1rem; line-height: 1.6;">Data analyst skilled in SQL, data visualization (Power BI, Tableau), and statistical methodologies, with an expertise in generating actionable insights, optimizing processes, and supporting strategic decision-making.</p>
+					<ul style="list-style-type: none; padding: 0; margin: 0; text-align: center;"> <li><a href="#" class="button" id="aboutMeButton" style="font-size: 1.2rem; margin-bottom: 20px;">About Me</a></li> </ul>
+			
+					<div id="aboutMeSection" style="display: none; margin-top: 20px; font-size: 1rem; line-height: 1.6;">
+						<h3>About Me</h3>
+						<p>Hi, I am Lauren - welcome to my portfolio! My strengths include utilizing data analytics and CRM systems to leverage business operations. I am currently a Salesforce Administrator and Business Analyst, where I build custom workflows, reports, and automations.</p>
+						<p>In addition to my technical expertise, I have a strong passion for supporting sustainable initiatives with data-backed research. It is my goal to contribute to efforts that promote environmental responsibility and help build a better, more sustainable future for generations to come. I am continuously seeking opportunities to apply my skills in ways that support both business success and positive societal impact.</p>
+					</div>
+				</section>
+
+				<script>
+					// JavaScript to toggle the visibility of the About Me section
+					document.getElementById("aboutMeButton").addEventListener("click", function(event) {
+						event.preventDefault(); // Prevents the default behavior (page reload)
+						var aboutMeSection = document.getElementById("aboutMeSection");
+				
+						// Toggle visibility of the About Me section
+						if (aboutMeSection.style.display === "none" || aboutMeSection.style.display === "") {
+							aboutMeSection.style.display = "block";
+						} else {
+							aboutMeSection.style.display = "none";
+						}
+					});
+				</script>
+
+				<!-- Two -->
+					<section id="two">
+						<h2 style="font-size: 2.6rem; line-height: 1.4; text-align: center; margin-bottom: 20px;">Data Analysis Projects</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item" style="font-size: 1rem;">
+								<img src="https://www.theindianwire.com/wp-content/uploads/2021/12/1624123650InvestmentinRenewableEnergy.jpg" alt="" class="image fit" style="width: 100%; height: 200px; object-fit: cover;" />
+								<h3 style="font-size: 1.4rem;">World Energy Consumption Data Cleaning & EDA in SQL</h3>
+								<p style="font-size: 1rem; margin-bottom: 20px">In SSMS, I cleaned and analyzed a World Energy Consumption dataset to uncover relationships and patterns between various energy sources.</p>
+								<a href="https://github.com/ljtallon/SQL_Projects/blob/main/WorldEnergyConsumption.sql" target="_blank" class="button">View on GitHub</a>
+							</article>
+							<article class="col-6 col-12-xsmall work-item" style="font-size: 1rem;">
+								<img src="https://img.freepik.com/premium-vector/changing-climate-concept-alternative-energy-sources-sustainable-lifestyle-windmills-power-generation-global-environmental-issues-problems-cartoon-flat-vector-illustration_118813-16855.jpg" alt="" class="image fit" style="width: 100%; height: 200px; object-fit: cover;" />
+								<h3 style="font-size: 1.4rem;">World Energy Consumption Dashboard in Power BI</h3>
+								<p style="font-size: 1rem; margin-bottom: 20px">This dashboard uses the same World Energy Consumption dataset used in the SQL project. It showcases the SQL queries in a visual presentation.</p>
+								<a href="https://github.com/ljtallon/Power_BI_Projects/blob/main/World%20Energy%20Consumption%20Dashboard.pbix" target="_blank" class="button">View on GitHub</a>
+							</article>
+							<article class="col-6 col-12-xsmall work-item" style="font-size: 1rem;">
+								<img src="https://miro.medium.com/v2/resize:fit:864/1*AhSSpxVVkQ34OGTBknN1eA.png" alt="" class="image fit" style="width: 100%; height: 200px; object-fit: cover;" />
+								<h3 style="font-size: 1.4rem;">Housing Data Cleaning in SQL</h3>
+								<p style="font-size: 1rem; margin-bottom: 20px">In this project, I took raw housing data and transformed it in SQL Server to make it more usable for analysis.</p>
+								<a href="https://github.com/ljtallon/SQL_Projects/blob/main/World%20Layoffs%20Data%20Cleaning%20Project.sql" target="_blank" class="button">View on GitHub</a>
+							</article>
+							<article class="col-6 col-12-xsmall work-item" style="font-size: 1rem;">
+								<img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-52758,resizemode-75,msid-97197508/news/new-updates/layoffs-2023-why-are-tech-superpowers-laying-off-workers-all-around-the-world.jpg" alt="" class="image fit" style="width: 100%; height: 200px; object-fit: cover;" />
+								<h3 style="font-size: 1.4rem;">Global Layoffs Data Exploratory in SQL</h3>
+								<p style="font-size: 1rem; margin-bottom: 20px">In this project, I used SQL Server to explore global layoffs data to assess impact of layoffs.</p>
+								<a href="https://github.com/ljtallon/SQL_Projects/blob/main/World%20Layoffs%20Data%20Exploratory%20Project.sql" target="_blank" class="button">View on GitHub</a>
+							</article>
+							<article class="col-6 col-12-xsmall work-item" style="font-size: 1rem;">
+								<img src="https://johnzogbystrategies.com/wp-content/uploads/2022/09/survey-data-collection.png" alt="" class="image fit" style="width: 100%; height: 200px; object-fit: cover;" />
+								<h3 style="font-size: 1.4rem;">Data Survey Dashboard in Power BI</h3>
+								<p style="font-size: 1rem; margin-bottom: 20px">This dashboard demonstrated relationships between data survey responses.</p>
+								<a href="https://github.com/ljtallon/Power_BI_Projects/blob/main/Power%20BI%20Data%20Survey%20Project.pbix" target="_blank" class="button">View on GitHub</a>
+							</article>
+							<article class="col-6 col-12-xsmall work-item" style="font-size: 1rem;">
+								<img src="https://smartasset.com/wp-content/uploads/sites/2/2023/09/iStock-1501047252.jpg" alt="" class="image fit" style="width: 100%; height: 200px; object-fit: cover;" />
+								<h3 style="font-size: 1.4rem;">Revenue Dashboard in Tableau</h3>
+								<p style="font-size: 1rem; margin-bottom: 20px">This dashboard outlines financial forecasting for Seattle AirBnb Sales.</p>
+								<a href="https://github.com/ljtallon/Tableau_Projects/blob/main/Data%20Analysis%20Tableau%20Project.twbx" target="_blank" class="button">View on GitHub</a>
+							</article>
+							<article class="col-6 col-12-xsmall work-item" style="font-size: 1rem;">
+								<img src="https://www.shutterstock.com/image-vector/bicycle-bike-store-vector-illustration-260nw-1823341295.jpg" alt="" class="image fit" style="width: 100%; height: 200px; object-fit: cover;" />
+								<h3 style="font-size: 1.4rem;">Sales Dashboard in Excel</h3>
+								<p style="font-size: 1rem; margin-bottom: 20px">This project utilized Excel formulas and pivot tables to build an interactive dashboard.</p>
+								<a href="https://github.com/ljtallon/Excel_Projects/blob/main/Excel%20Data%20Analysis%20Bike%20Sales%20Project.xlsx" target="_blank" class="button">View on GitHub</a>
+							</article>
+						</div>
+						<ul class="actions">
+						</ul>
+					</section>
+
+				<!-- Three -->
+					<section id="three">
+						<h2 style="font-size: 2.6rem; line-height: 1.4; text-align: center; margin-bottom: 20px;">Get In Touch</h2>
+						<p>Thank you for visiting my portfolio — I am always open to new opportunities and collaborations. Feel free to reach out via email or connect with me on LinkedIn. I look forward to hearing from you!</p>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/ljtallon" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            			<li><a href="https://www.linkedin.com/in/lauren-tallon-097254ba/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            			<li><a href="mailto:ljtallon26@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
